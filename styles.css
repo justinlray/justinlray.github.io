@@ -1,0 +1,134 @@
+.heading {
+    padding: 25px;
+    color: white;
+
+}
+
+.font-select {
+    font-family: 'Roboto', sans-serif;
+}
+
+.folder-tab {
+  padding: 7px 20px;
+  text-align: center;
+  border: 1px solid #808080;
+  border-bottom: none;
+  display: inline-block;
+  text-decoration: none !important;
+  box-shadow: 2px 2px #808080;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-right: 2px;
+  position: relative;
+  top: 1px;
+  color: black;
+}
+
+
+.active-tab {
+    background-color: #d4d0c8;
+}
+
+.inactive-tab {
+    background-color: #b3ada3;
+}
+
+.body-container {
+    padding: 7px 20px;
+    border: 1px solid #808080;
+    border-bottom: none;
+    box-shadow: 2px 2px #808080;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-right: 2px;
+    position: relative;
+    top: 1px;
+    color: black;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle at center, #0f0c29, #302b63, #24243e);
+}
+
+
+.resume-element {
+    background-color: #d4d0c8;
+    border: 1px solid #808080;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 800px;
+    color: #000;
+}
+
+.resume_heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.resume-source {
+    text-align: left;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.resume-date {
+    text-align: right;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.resume_description {
+    text-align: left;
+    padding: 15px;
+}
+
+.coursework {
+    text-align: left;
+    padding: 5px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #d4d0c8;
+    border-top: 1px solid #808080;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.img {
+    
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2%
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-snazz {
+    border-bottom: 4px solid grey !important;
+    border-right: 4px solid grey !important;
+    border-top: 2px solid #dee2e6 !important;
+    border-left: 2px solid #dee2e6 !important;
+}
